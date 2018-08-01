@@ -3,7 +3,8 @@ import './App.css';
 
 /* My Component imports */
 import CryptMenu from './CryptMenu';
-import ReactLogo from './logo.svg';
+import Tickrs from './Tickrs';
+//import ReactLogo from '../react-logo.svg';
 
 /* Ant Design imports */
 import { 
@@ -16,17 +17,6 @@ import {
 } from 'antd';
 
 const { Header, Footer, Sider, Content } = Layout;
-
-// class Header extends Component {
-// 	render () {
-// 		return(
-// 			<header>
-// 				<div className="logo">LOGO</div>
-
-// 			</header>
-// 		);
-// 	}
-// }
 
 class App extends Component {
   render() {
@@ -46,7 +36,9 @@ class App extends Component {
 		      		</Row>
 		      	</Header>
 	      	</div>
-	      	<Content>hello world</Content>
+	      	<Content>
+	      		<Tickrs/>
+	      	</Content>
 	      	<Footer>
 				A project by <a href="https://github.com/aeged">aeged</a>.   Made with ❤️, <a href="https://reactjs.org/">Reactjs</a>, and <a href="https://ant.design/">Ant Design</a>.	      		
 	      	</Footer>
