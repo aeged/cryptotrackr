@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
 
+.Header {
+  background-color: #fff9ef;
+}
+
 .App {
   text-align: center;
 }
